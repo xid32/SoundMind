@@ -1,8 +1,11 @@
 # SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models
 
-This repository is the official implementation of **SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models**. We introduce SoundMind, a novel rule-based reinforcement learning framework that empowers largescale audio-language models with advanced logical reasoning capabilities across both audio and textual modalities. To enable such training, we build the Audio Logical Reasoning (ALR) dataset, a dual-modality benchmark comprising 6,446 highquality samples annotated with chain-of-thought reasoning in both audio and text forms.
+This repository is the official implementation of *SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models*. We introduce **SoundMind**, a novel rule-based reinforcement learning framework that empowers largescale audio-language models with advanced logical reasoning capabilities across both audio and textual modalities. To enable such training, we build the **Audio Logical Reasoning (ALR) dataset**, a dual-modality benchmark comprising 6,446 highquality samples annotated with chain-of-thought reasoning in both audio and text forms.
 
-![Audio-Logic-RL - Overview](./figs/f1.png)
+
+<p align="center">
+<img src="./figs/f1.png" alt="Task Figure" width="80%" height="40%">
+</p>
 
 ## Dataset Download
 
@@ -91,7 +94,9 @@ pip install qwen-omni-utils[decord] -U
 Our project and code rely on  Audio Logical Reasoning (ALR) dataset.
 
 
-![Audio-Logic-RL - Overview](./figs/f2.png)
+<p align="center">
+<img src="./figs/f2.png" alt="Pipeline Figure" width="80%" height="40%">
+</p>
 
 
 
