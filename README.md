@@ -4,7 +4,7 @@ This repository is the official implementation of *SoundMind: RL-Incentivized Lo
 
 
 <p align="center">
-<img src="./figs/f1.png" alt="Task Figure" width="80%" height="40%">
+<img src="./figs/f1.png" alt="Task Figure" width="60%" height="30%">
 </p>
 
 ## Dataset Download
@@ -95,7 +95,7 @@ Our project and code rely on  Audio Logical Reasoning (ALR) dataset.
 
 
 <p align="center">
-<img src="./figs/f2.png" alt="Pipeline Figure" width="80%" height="40%">
+<img src="./figs/f2.png" alt="Pipeline Figure" width="60%" height="30%">
 </p>
 
 
