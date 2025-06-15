@@ -1,8 +1,22 @@
 # SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models
 
-This repository is the official implementation of **SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models**. 
+This repository is the official implementation of **SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models**. We introduce SoundMind, a novel rule-based reinforcement learning framework that empowers largescale audio-language models with advanced logical reasoning capabilities across both audio and textual modalities. To enable such training, we build the Audio Logical Reasoning (ALR) dataset, a dual-modality benchmark comprising 6,446 highquality samples annotated with chain-of-thought reasoning in both audio and text forms.
 
 ![Audio-Logic-RL - Overview](./figs/f1.png)
+
+## Dataset Download
+
+To download our dataset, please visit this link: [Dataset Link](https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=0)
+
+Run the following command:
+
+```bash
+wget -c "https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=1" -O audio_dataset.zip
+```
+
+Alternatively, you can also download it from [Hugging Face](https://huggingface.co/datasets/SoundMind-RL/SoundMindDataset).
+
+The dataset contains train, test, and validation splits with corresponding text descriptions and metadata stored as JSON files. All annotation files are located in the `dataset-annotation-json` folder in this github.
 
 ## Requirements
 
@@ -133,19 +147,3 @@ bash main_grpo.sh
 | **Audio**     | Text   | 81.40        | /       |
 | **Text**      | Audio  | 83.84        | 6.99    |
 | **Audio** | Audio  | 81.40        | 8.95    |
-
-
-
-## Dataset Download
-
-To download our dataset, please visit this link: [Dataset Link](https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=0)
-
-Run the following command:
-
-```bash
-wget -c "https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=1" -O audio_dataset.zip
-```
-
-Alternatively, you can also download it from [Hugging Face](https://huggingface.co/datasets/SoundMind-RL/SoundMindDataset).
-
-The dataset contains train, test, and validation splits with corresponding text descriptions and metadata stored as JSON files. All annotation files are located in the `dataset-annotation-json` folder in this github.
