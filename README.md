@@ -145,17 +145,6 @@ bash main_grpo.sh
 ```
 
 
-## Results
-
-
-**The main results of our paper are shown below:**
-
-
-| Inputs        | Output | Accuracy (%) | WER (%) |
-|---------------|--------|--------------|---------|
-| **Audio**     | Text   | 81.40        | /       |
-| **Text**      | Audio  | 83.84        | 6.99    |
-| **Audio** | Audio  | 81.40        | 8.95    |
 
 ## ✏️ Citation
 
