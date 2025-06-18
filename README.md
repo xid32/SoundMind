@@ -1,5 +1,9 @@
 # SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+[![arXiv](https://img.shields.io/badge/arXiv-2506.12935-b31b1b.svg)](https://arxiv.org/abs/2506.12935)
+
 This repository is the official implementation of *SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models*. We introduce **SoundMind**, a novel rule-based reinforcement learning framework that empowers largescale audio-language models with advanced logical reasoning capabilities across both audio and textual modalities. To enable such training, we build the **Audio Logical Reasoning (ALR) dataset**, a dual-modality benchmark comprising 6,446 highquality samples annotated with chain-of-thought reasoning in both audio and text forms.
 
 
@@ -152,3 +156,16 @@ bash main_grpo.sh
 | **Audio**     | Text   | 81.40        | /       |
 | **Text**      | Audio  | 83.84        | 6.99    |
 | **Audio** | Audio  | 81.40        | 8.95    |
+
+## ✏️ Citation
+
+If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
+
+```
+@article{soundmind,
+  title={SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models},
+  author={Diao, Xingjian and Zhang, Chunhui and Kong, Keyi and Wu, Weiyi and Ma, Chiyu and Ouyang, Zhongyu and Qing, Peijun and Vosoughi, Soroush and Gui, Jiang},
+  journal={arXiv preprint arXiv:2506.12935},
+  year={2025}
+}
+```
