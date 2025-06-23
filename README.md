@@ -131,7 +131,15 @@ cd ./examples/data_preprocess
 python alr_audio.py
 ```
 
+## Checkpoint Download
 
+To download our model checkpoint, please visit this link: [Checkpoint Link](https://www.dropbox.com/scl/fi/f24wyecnycfu6g6ip10ac/qwen2_5_omni_logic.zip?rlkey=xlixctyr8cbfpv85arhka0b8c&st=wd5rlh9b&dl=0)
+
+Run the following command:
+
+```bash
+wget -c "https://www.dropbox.com/scl/fi/f24wyecnycfu6g6ip10ac/qwen2_5_omni_logic.zip?rlkey=xlixctyr8cbfpv85arhka0b8c&st=wd5rlh9b&dl=1" -O qwen2_5_omni_logic.zip
+```
 
 ## RL-Training & Evaluation
 
