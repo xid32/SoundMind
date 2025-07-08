@@ -9,7 +9,7 @@ This repository is the official implementation of *SoundMind: RL-Incentivized Lo
 
 
 <p align="center">
-<img src="./figs/f1.png" alt="Task Figure" width="80%" height="40%">
+<img src="./figs/f1.png" alt="Task Figure">
 </p>
 
 ## Dataset Download
