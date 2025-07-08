@@ -99,12 +99,6 @@ pip install qwen-omni-utils[decord] -U
 Our project and code rely on  Audio Logical Reasoning (ALR) dataset.
 
 
-<p align="center">
-<img src="./figs/f2.png" alt="Pipeline Figure" width="60%" height="30%">
-</p>
-
-
-
 ### Generate Parquet Format Dataset
 
 
