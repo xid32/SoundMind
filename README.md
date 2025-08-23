@@ -14,7 +14,9 @@ This repository is the official implementation of *SoundMind: RL-Incentivized Lo
 
 ## Dataset Download
 
-To download our dataset, please visit this link: [Dataset Link](https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=0)
+To download our dataset, please visit this link: [Hugging Face](https://huggingface.co/datasets/SoundMind-RL/SoundMindDataset).
+
+Alternatively, you can also download it from [Dropbox](https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=0).
 
 Run the following command:
 
@@ -22,9 +24,7 @@ Run the following command:
 wget -c "https://www.dropbox.com/scl/fi/irtbrnmk5e0ecvv8fyrum/audio_dataset.zip?rlkey=p1ebkt9h1bkyjsq3fo2bp667v&st=gxr542e2&dl=1" -O audio_dataset.zip
 ```
 
-Alternatively, you can also download it from [Hugging Face](https://huggingface.co/datasets/SoundMind-RL/SoundMindDataset).
-
-The dataset contains train, test, and validation splits with corresponding text descriptions and metadata stored as JSON files. All annotation files are located in the `dataset-annotation-json` folder in this github.
+The dataset contains train, test, and validation splits with corresponding text descriptions and metadata stored as JSON files. All annotation files are located in the `dataset-annotation-json` folder in this GitHub.
 
 ## Requirements
 
@@ -43,7 +43,7 @@ Our codebase is based on [verl](https://github.com/volcengine/verl). If you are 
 
 For training and inference engines to utilize better and faster hardware support, CUDA/cuDNN and other dependencies are required, and some of the dependencies are easy to be overridden when installing other packages.
 
-We need to install the following pre-requisites:
+We need to install the following prerequisites:
 
 - **CUDA**: Version >= 12.4
 - **cuDNN**: Version >= 9.8.0
