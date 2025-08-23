@@ -1,4 +1,4 @@
-# SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models [EMNLP 2025]
+# SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models [EMNLP 2025 Main Conference]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/xid32/SoundMind/blob/main/LICENSE) 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.12935-b31b1b.svg)](https://arxiv.org/abs/2506.12935) 
@@ -154,7 +154,7 @@ bash main_grpo.sh
 If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
 
 ```
-@article{soundmind,
+@article{diao2025soundmind,
   title={SoundMind: RL-Incentivized Logic Reasoning for Audio-Language Models},
   author={Diao, Xingjian and Zhang, Chunhui and Kong, Keyi and Wu, Weiyi and Ma, Chiyu and Ouyang, Zhongyu and Qing, Peijun and Vosoughi, Soroush and Gui, Jiang},
   journal={arXiv preprint arXiv:2506.12935},
